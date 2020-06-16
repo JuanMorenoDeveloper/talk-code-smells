@@ -1,0 +1,23 @@
+:icons: font
+:twitter-tag: ACCSA
+:conference-tag:
+:talk-tag: Code Smells
+:linkattrs:
+ifndef::partials[:partials: partials]
+
+include::{partials}/footer.ad[]
+
+== Code Smells & Refactoring
+
+//== !
+//image::pattern-design-4pwbdv1y.jpg[background, size=auto]
+// Fuente: https://standaserigraf.wordpress.com/2015/09/30/pattern-design-tecnica-artistica-que-se-ocupa-de-la-creacion-de-patrones-graficos/
+== Bloaters
+
+* Long method
+* Large class
+* Primitive obsession
+* Long parameter list
+* Data clumbs
+
+include::{partials}/self.ad[]
