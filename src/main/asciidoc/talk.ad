@@ -14,10 +14,23 @@ include::{partials}/footer.ad[]
 // Fuente: https://standaserigraf.wordpress.com/2015/09/30/pattern-design-tecnica-artistica-que-se-ocupa-de-la-creacion-de-patrones-graficos/
 == Bloaters
 
+Son todos esas clases, códigos o métodos que son tan grandes (LoC/Complejidad) que es esto todo reto trabajar cone ellos. Normalmente estas clases no son diseñadas así de manera deliberada sino que son producto de acumulación de deuda técnica a lo largo que el proyecto evoluciona.
+
+== Tipos de Bloaters
+
 * Long method
 * Large class
 * Primitive obsession
 * Long parameter list
 * Data clumbs
+
+== Long method
+
+Métodos con muchas líneas de código
+
+== Large class
+== Primitive obsession
+== Long parameter list
+== Data clumbs
 
 include::{partials}/self.ad[]
