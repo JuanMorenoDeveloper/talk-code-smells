@@ -26,7 +26,34 @@ Son todos esas clases, códigos o métodos que son tan grandes (LoC/Complejidad)
 
 == Long method
 
-Métodos con muchas líneas de código
+Métodos con muchas líneas de código.
+
+=== Razones de este problema
+
+Normalmente este problema ocurre cuando se agregan funcionalidades a un método y no hace refactor de su estructura.
+
+=== Tratamiento
+
+Si es necesario agregar comentarios o se hace difícil la compresión del método una alternativa es dividirlo en métodos más pequeños. Dentro de las opciones es tienen:
+
+=== Recetas
+
+* Extract Method
+* Replace Temp with Query
+* Introduce Parameter Object
+* Preserve Whole Object
+* Replace Method with Method Object
+* Decompose Conditional
+
+=== Beneficios del refactoring
+
+* El código es más fácil de mantener
+* Al evitar métodos largos se evita ocultar lógica compleja
+
+=== Consideraciones de rendimiento
+
+Normalmente se considera que cuando se aumenta el número de métodos se pierde performance, aunque esto puede ser cierto, se debe considerar que siempre va a ser más fácil optimizar un programa bien estructurado que uno que no.
+En otros casos el impacto es mínimo o el compilador optimiza las invocaciones de manera automática (por ejemplo haciendo inlining)
 
 == Large class
 == Primitive obsession
